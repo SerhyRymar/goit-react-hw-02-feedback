@@ -1,7 +1,8 @@
 import PropTypes from 'prop-types';
+import css from './Notification.modules.css';
 
 const Notification = () => {
-  return <span>There is no feedback</span>;
+  return <span className={css.notification_text}>There is no feedback</span>;
 };
 
 Notification.propTypes = {
